@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <title>DreamPoster: A Unified Framework
+ for Image-Conditioned Generative Poster Design</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">DreamPoster: A Unified Framework <br>for Image-Conditioned Generative Poster Design</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=POP8M2cAAAAJ&hl=en" target="_blank">Xiwei Hu<sup>*</sup></a>,</span>
+                <span class="author-block">
+                  <a href="" target="_blank">Haokun Chen<sup>*</sup></a>,</span>
+                  <span class="author-block">
+                  <a href="" target="_blank">Zhongqi Qi<sup>*</sup></a>,</span>
+                  <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=PM0wt9wAAAAJ&hl=zh-CN" target="_blank">Hui Zhang<sup>*</sup></a>,</span>
+                  <span class="author-block">  
+                    <a href="https://scholar.google.com.hk/citations?user=DUNijlcAAAAJ&hl=zh-CN" target="_blank">Dexiang Hong</a>,</span>
+                  <span class="author-block">  
+                  <a href="https://openreview.net/profile?id=~Jie_Shao5" target="_blank">Jie Shao<sup>†</sup></a>,</span>
+                  <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=LVsp9RQAAAAJ&hl=zh-CN" target="_blank">Xinglong Wu</a></span>
+                  <span class="author-block">
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">ByteDance Intelligent Creation</span><br>
+                    <span class="author-block"><sup>*</sup>Equal Contribution</span>
+                    <span class="author-block"><sup>†</sup>Project Lead</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                  <!-- ArXiv PDF Link -->
+                <span class="link-block">
+                  <a href="" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark" >
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Technical Report (Coming Soon)</span>
+                </a>
+              </span>
+
+
+          <span class="link-block">
+            <a href="" target="_blank" 
+               class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-rocket"></i>
+                </span>
+                <span>Demo</span>
+            </a>
+        </span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser Image -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/teaser1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          DreamPoster can generate a wide variety of posters.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/teaser2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          DreamPoster can generate a wide variety of posters.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/teaser3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          DreamPoster can generate a wide variety of posters.
+       </h2>
+     </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<!-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We present <strong>DreamPoster</strong>, a text-to-image generation framework that intelligently synthesizes high-quality posters from user-provided images and text prompts while maintaining content fidelity and supporting flexible resolution and layout outputs. Specifically, DreamPoster is built upon our T2I model Seedream3.0 to uniformly process different poster generating types. For dataset construction, we propose a systematic data annotation pipeline that precisely annotates textual content and typographic hierarchy information within poster images, while employing comprehensive methodologies to construct paired datasets comprising source materials (e.g., raw graphics/text) and their corresponding final poster outputs. Additionally, we implement a progressive training strategy that enables the model to hierarchically acquire multi-task generation capabilities while maintaining high-quality generation. Evaluations on our testing benchmarks demonstrate DreamPoster's superiority over existing methods, achieving a high usability rate of 84.83%, compared to GPT4o (49.78%) and SeedEdit1.6 (5.71%). DreamPoster will be online in <a href="https://jimeng.jianying.com/ai-tool/home" target="_blank">Jimeng</a> and other Bytedance Apps.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!--Dataset -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Dataset Pipeline</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/dataset.png">
+          <p></p>
+          <p>
+
+            We collect a large and diverse dataset of high-quality posters which annotated by our proposed data curation pipeline. We first filter the collected data by OCR and aestheic score to obtain a clean poster dataset with recognizable text and high image quality. Specifically, we train a Poster Captioner that specifically processes text-heavy posters, achieving accurate identification and description of textual attributes including font size, typeface, color schemes, and layout information. The Poster Captioner re-caption each poster with a glyph-focused caption and a layout-focused caption, which enables DreamPoster to learn both fine-grained glyphs and typographical hierachy. 
+            To establish paired datasets comprising source images and target poster counterparts, we implement a systematic framework leveraging a suite of advanced image processing methodologies, including context-aware inpainting, semantic segmentation, traditional rendering, etc.., to extract and refine source visual content derived from high-quality poster images. This pipeline ensures structural correspondence while preserving semantic fidelity between source-target pairs through controlled image transformations.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Architecture and Training Process</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/architect.png">
+          <p></p>
+          <p>
+            DreamPoster employs a multi-modal architecture that seamlessly integrates text and image information. When training, we adopt a progressive three-stage training strategy to gradually improve the model's design capabilities at multiple levels: <strong>Stage 1: Single-task Pretraining</strong> - In this phase, the model is trained only on the task of adding text to images. The goal is to learn the basic fusion of image and text information. This helps the model grasp fundamental connections between images and text. <strong>Stage 2: Multi-task Mixed Training</strong> - The model is further trained on mixed tasks such as text modification, deletion, and poster stylization etc.., expanding its ability to handle more complex and varied scenarios. <strong>Stage 3: Fine-grained Aesthetic Alignment</strong> - In the final stage, the model is fine-tuned with a small batch of high-quality data. This enables it to process more intricate design elements and optimize layout relationships and spatial usage, achieving fine control over design details. Through these three stages of progressive training, the model is optimized to varying degrees at each stage, ultimately achieving high-quality, professional poster generation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--Quantitive Results -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Quantitive Results</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/gsb.png">
+          <p></p>
+          <p>
+            We conduct comprehensive human evaluation comparing DreamPoster with state-of-the-art baselines across three key dimensions: <strong>Prompt Following</strong>, <strong>Subject Preservation</strong>, and <strong>Design Sense</strong>. DreamPoster outperforms exsiting models by a clear margin. We also conduct a usability evaluation involving 60 human evaluators, with quantitative analysis revealing that DreamPoster achieves statistically superior usability rates(84.83%) compared to state-of-the-art baselines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--Quanlitive Results -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Quanlitive Results</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/quanlitative.png">
+          <p></p>
+          <p>
+            Note that GPT-4o exhibits instability in aspect ratio preservation during image synthesis, while SeedEdit1.6 enforces rigid input-output dimensional alignment through fixed aspect ratio constraints.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  </body>
+  </html>
