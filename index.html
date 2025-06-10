@@ -98,7 +98,7 @@
 
 
           <span class="link-block">
-            <a href="" target="_blank" 
+            <a href="https://jimeng.jianying.com/ai-tool/home" target="_blank" 
                class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                     <i class="fas fa-rocket"></i>
@@ -180,7 +180,7 @@
           <p>
 
             We collect a large and diverse dataset of high-quality posters which annotated by our proposed data curation pipeline. We first filter the collected data by OCR and aestheic score to obtain a clean poster dataset with recognizable text and high image quality. Specifically, we train a Poster Captioner that specifically processes text-heavy posters, achieving accurate identification and description of textual attributes including font size, typeface, color schemes, and layout information. The Poster Captioner re-caption each poster with a glyph-focused caption and a layout-focused caption, which enables DreamPoster to learn both fine-grained glyphs and typographical hierachy. 
-            To establish paired datasets comprising source images and target poster counterparts, we implement a systematic framework leveraging a suite of advanced image processing methodologies, including context-aware inpainting, semantic segmentation, traditional rendering, etc.., to extract and refine source visual content derived from high-quality poster images. This pipeline ensures structural correspondence while preserving semantic fidelity between source-target pairs through controlled image transformations.
+            To establish paired datasets comprising source images and target poster counterparts, we implement a systematic framework leveraging a suite of advanced image processing methodologies, including context-aware inpainting, semantic segmentation, traditional rendering, etc., to extract and refine source visual content derived from high-quality poster images. This pipeline ensures structural correspondence while preserving semantic fidelity between source-target pairs through controlled image transformations.
             
           </p>
         </div>
@@ -199,7 +199,7 @@
           <img src="static/images/architect.png">
           <p></p>
           <p>
-            DreamPoster employs a multi-modal architecture that seamlessly integrates text and image information. We concatenate text tokens, condition image tokens and noise tokens along sequence dimension with respective position embeddings. When training, we finetune certain layers in DiT and adopt a progressive three-stage training strategy to gradually improve the model's design capabilities at multiple levels: <strong>Stage 1: Single-task Pretraining</strong> - In this phase, the model is trained only on the task of adding text to images. The goal is to learn the basic fusion of image and text information. This helps the model grasp fundamental connections between images and text. <strong>Stage 2: Multi-task Mixed Training</strong> - The model is further trained on mixed tasks such as text modification, deletion, and poster stylization etc.., expanding its ability to handle more complex and varied scenarios. <strong>Stage 3: Fine-grained Aesthetic Alignment</strong> - In the final stage, the model is fine-tuned with a small batch of high-quality data. This enables it to process more intricate design elements and optimize layout relationships and spatial usage, achieving fine control over design details. Through these three stages of progressive training, the model is optimized to varying degrees at each stage, ultimately achieving high-quality, professional poster generation.
+            DreamPoster employs a multi-modal architecture that seamlessly integrates text and image information. We concatenate text tokens, condition image tokens and noise tokens along sequence dimension with respective position embeddings. When training, we finetune certain layers in DiT and adopt a progressive three-stage training strategy to gradually improve the model's design capabilities at multiple levels: <strong>Stage 1: Single-task Pretraining</strong> - In this phase, the model is trained only on the task of adding text to images. The goal is to learn the basic fusion of image and text information. This helps the model grasp fundamental connections between images and text. <strong>Stage 2: Multi-task Mixed Training</strong> - The model is further trained on mixed tasks such as text modification, deletion, and poster stylization etc., expanding its ability to handle more complex and varied scenarios. <strong>Stage 3: Fine-grained Aesthetic Alignment</strong> - In the final stage, the model is fine-tuned with a small batch of high-quality data. This enables it to process more intricate design elements and optimize layout relationships and spatial usage, achieving fine control over design details. Through these three stages of progressive training, the model is optimized to varying degrees at each stage, ultimately achieving high-quality, professional poster generation.
           </p>
         </div>
       </div>
@@ -219,7 +219,7 @@
           <img src="static/images/gsb.png">
           <p></p>
           <p>
-            We conduct comprehensive human evaluation comparing DreamPoster with state-of-the-art baselines across three key dimensions: <strong>Prompt Following</strong>, <strong>Subject Preservation</strong>, and <strong>Design Sense</strong>. DreamPoster outperforms exsiting models by a clear margin. We also conduct a usability evaluation involving 60 human evaluators, with quantitative analysis revealing that DreamPoster achieves statistically superior usability rates(84.83%) compared to state-of-the-art baselines.
+            We conduct comprehensive human evaluation comparing DreamPoster with state-of-the-art baselines across three key dimensions: <strong>Prompt Following</strong>, <strong>Subject Preservation</strong>, and <strong>Design Sense</strong>. DreamPoster outperforms exsiting models by a clear margin. We also conduct a usability evaluation involving 60 human evaluators, with quantitative analysis revealing that DreamPoster achieves statistically superior usability rates (84.83%) compared to state-of-the-art baselines.
           </p>
         </div>
       </div>
